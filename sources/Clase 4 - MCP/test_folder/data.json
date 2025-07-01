@@ -1,0 +1,9 @@
+{
+  "nombre": "ADK",
+  "version": "1.0",
+  "features": [
+    "agents",
+    "tools",
+    "mcp"
+  ]
+}

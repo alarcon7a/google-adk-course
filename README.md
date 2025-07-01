@@ -40,6 +40,30 @@ Este curso está estructurado en varios módulos, cada uno enfocado en un aspect
         *   Herramientas con estado y contexto (ej. carrito de compras).
         *   Combinación de múltiples herramientas en un agente especializado (ej. agente de e-commerce).
 - [Ver Video Tutorial](https://youtu.be/RaW3U5Sb9ks)   
+
+4.  **Módulo 4: Integración con MCP (Model Context Protocol)**
+    *   Introducción al **Model Context Protocol (MCP)**: Protocolo estándar para conectar sistemas de IA con fuentes de datos externas.
+    *   Configuración y uso de **servidores MCP** con ADK.
+    *   Implementación práctica de diferentes tipos de MCP:
+        *   **MCP Folder**: Acceso y manipulación de archivos y directorios.
+        *   **MCP Twitter**: Integración con redes sociales para análisis y contenido.
+        *   **MCP Maps**: Servicios de geolocalización y mapas.
+        *   **MCP E-commerce**: Gestión de productos, inventario y transacciones.
+    *   Creación de **servidores MCP personalizados** para casos de uso específicos.
+    *   Ejemplos prácticos de agentes que consumen datos de múltiples fuentes MCP.
+- [Ver Video Tutorial](https://youtu.be/qrN-l9U7nrs)   
+
+5.  **Módulo 5: Workflows Avanzados con ADK**
+    *   Diseño e implementación de **workflows complejos** usando múltiples agentes.
+    *   Patrones de ejecución:
+        *   **Sequential Agent**: Ejecución secuencial de tareas con dependencias.
+        *   **Parallel Agent**: Procesamiento paralelo para optimizar rendimiento.
+        *   **Loop Agent**: Iteración y refinamiento automático de resultados.
+    *   **Orquestación de agentes**: Coordinación y comunicación entre múltiples agentes especializados.
+    *   Manejo de **estados compartidos** y **contexto persistente** entre agentes.
+    *   Casos de uso avanzados: Pipelines de procesamiento de datos, sistemas de toma de decisiones, y automatización compleja.
+- [Ver Video Tutorial](https://youtu.be/ui16aeZrQTc)   
+
      
 ## 🛠️ Prerrequisitos
 
