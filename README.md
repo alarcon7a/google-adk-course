@@ -51,7 +51,6 @@ Este curso está estructurado en varios módulos, cada uno enfocado en un aspect
         *   **MCP E-commerce**: Gestión de productos, inventario y transacciones.
     *   Creación de **servidores MCP personalizados** para casos de uso específicos.
     *   Ejemplos prácticos de agentes que consumen datos de múltiples fuentes MCP.
-- [Ver Video Tutorial](https://youtu.be/qrN-l9U7nrs)   
 
 5.  **Módulo 5: Workflows Avanzados con ADK**
     *   Diseño e implementación de **workflows complejos** usando múltiples agentes.
@@ -62,7 +61,6 @@ Este curso está estructurado en varios módulos, cada uno enfocado en un aspect
     *   **Orquestación de agentes**: Coordinación y comunicación entre múltiples agentes especializados.
     *   Manejo de **estados compartidos** y **contexto persistente** entre agentes.
     *   Casos de uso avanzados: Pipelines de procesamiento de datos, sistemas de toma de decisiones, y automatización compleja.
-- [Ver Video Tutorial](https://youtu.be/ui16aeZrQTc)   
 
      
 ## 🛠️ Prerrequisitos
