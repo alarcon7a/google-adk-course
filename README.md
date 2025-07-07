@@ -148,3 +148,9 @@ Este proyecto se distribuye bajo la Licencia MIT. Consulta el archivo `LICENSE` 
 ---
 
 ¡Espero que este curso te sea de gran utilidad para dominar el Google ADK!
+
+---
+
+## 🌐 Language / Idioma
+
+[English](README_EN.md) | **Español**
