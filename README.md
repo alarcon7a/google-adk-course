@@ -64,6 +64,17 @@ Este curso está estructurado en varios módulos, cada uno enfocado en un aspect
     *   Casos de uso avanzados: Pipelines de procesamiento de datos, sistemas de toma de decisiones, y automatización compleja.
 - [Ver Video Tutorial](https://youtu.be/ui16aeZrQTc)   
 
+6.  **Módulo 6: Callbacks en ADK**
+    *   Introducción a los **Callbacks** y su ciclo de vida en ADK.
+    *   Implementación de `adk.Callback` para interceptar eventos del agente.
+    *   Casos de uso prácticos:
+        *   **Logging y Monitoreo**: Registrar cada paso de la ejecución del agente (inicio, fin, llamadas a herramientas, errores).
+        *   **Intervención y Control**: Modificar el comportamiento del agente en tiempo real.
+        *   **Integraciones Externas**: Enviar notificaciones o actualizar sistemas externos en respuesta a eventos del agente.
+    *   Diferencia entre `on_agent_start`, `on_agent_end`, `on_tool_start`, `on_tool_end`, y otros métodos del ciclo de vida.
+    *   Ejemplos de cómo los callbacks pueden usarse para depuración avanzada y para construir sistemas más robustos y transparentes.
+- [Ver Video Tutorial](https://www.youtube.com/watch?v=a-yAGN01J_Q)
+
      
 ## 🛠️ Prerrequisitos
 
