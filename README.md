@@ -73,7 +73,7 @@ Este curso está estructurado en varios módulos, cada uno enfocado en un aspect
         *   **Integraciones Externas**: Enviar notificaciones o actualizar sistemas externos en respuesta a eventos del agente.
     *   Diferencia entre `on_agent_start`, `on_agent_end`, `on_tool_start`, `on_tool_end`, y otros métodos del ciclo de vida.
     *   Ejemplos de cómo los callbacks pueden usarse para depuración avanzada y para construir sistemas más robustos y transparentes.
-- [Ver Video Tutorial](https://www.youtube.com/watch?v=a-yAGN01J_Q)
+- [Ver Video Tutorial](https://www.youtube.com/watch?v=FwfedElzH4Q)
 
      
 ## 🛠️ Prerrequisitos
