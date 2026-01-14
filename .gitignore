@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Ignorar bases de datos de sesión de ADK
+**/.adk/
+*.db
+
 # Virtual environment
 venv/
 env/
