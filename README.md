@@ -75,6 +75,18 @@ Este curso está estructurado en varios módulos, cada uno enfocado en un aspect
     *   Ejemplos de cómo los callbacks pueden usarse para depuración avanzada y para construir sistemas más robustos y transparentes.
 - [Ver Video Tutorial](https://www.youtube.com/watch?v=FwfedElzH4Q)
 
+7.  **Módulo 7: Sesiones, Estado y Memoria en ADK**
+    *   Diferenciar entre historial de conversación (`events`), estado activo (`state`) y memoria a largo plazo.
+    *   Uso de prefijos (`user:`, `app:`, `temp:`) para controlar el alcance de la información en el estado.
+    *   Inyección de valores del estado directamente en las instrucciones y herramientas del agente.
+    *   Construcción de un flujo de memoria a largo plazo con `MemoryService` para que los agentes recuerden información entre sesiones.
+
+8.  **Módulo 8: Artifacts - Manejo de Archivos y Datos Binarios**
+    *   Introducción a los **Artifacts** para manejar archivos (PDFs, imágenes, CSVs) que son demasiado grandes para el `state`.
+    *   Configuración del `ArtifactService` (en memoria y con Google Cloud Storage).
+    *   Creación de herramientas que generan y guardan artifacts (ej. un reporte en PDF).
+    *   Implementación de herramientas que leen y analizan artifacts subidos por el usuario.
+    *   Versionado automático de artifacts.
      
 ## 🛠️ Prerrequisitos
 
