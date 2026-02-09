@@ -75,6 +75,36 @@ Este curso está estructurado en varios módulos, cada uno enfocado en un aspect
     *   Ejemplos de cómo los callbacks pueden usarse para depuración avanzada y para construir sistemas más robustos y transparentes.
 - [Ver Video Tutorial](https://www.youtube.com/watch?v=FwfedElzH4Q)
 
+7.  **Módulo 7: RAG (Retrieval-Augmented Generation) con ADK**
+    *   Introducción a **RAG**: Qué es, por qué es crucial, y cómo mejora a los LLMs.
+    *   Componentes clave de un pipeline RAG:
+        *   **Cargadores de Datos (Loaders)**: `DirectoryReader` para ingestar documentos locales.
+        *   **Divisores de Texto (Splitters)**: `SentenceSplitter` para trocear documentos en fragmentos manejables.
+        *   **Modelos de Embeddings**: Uso de `fastembed-ge-large` y otros para convertir texto en vectores.
+        *   **Bases de Datos Vectoriales**: Implementación con `Qdrant` para almacenar y buscar vectores de manera eficiente.
+    *   Construcción de un **agente RAG completo** con ADK:
+        *   Creación de una herramienta `rag_tool` que busca información en la base de datos vectorial.
+        *   Integración de la herramienta en un `LlmAgent` para responder preguntas basadas en documentos.
+    *   **Indexación y consulta**:
+        *   Proceso de ingesta y creación del índice vectorial.
+        *   Realización de búsquedas de similitud para encontrar los fragmentos más relevantes.
+    *   Caso práctico: Agente de preguntas y respuestas sobre una base de conocimiento privada.
+- [Ver Video Tutorial](https://youtu.be/g3h9gR1w-zY)
+
+8.  **Módulo 8: Multi-Modalidad con ADK**
+    *   Introducción a la **Multi-Modalidad**: Procesamiento de texto, imágenes, audio y video.
+    *   Capacidades multi-modales de modelos como **Gemini Pro Vision**.
+    *   Implementación de agentes que entienden y procesan imágenes:
+        *   **Análisis de Imágenes**: Descripción de escenas, extracción de texto (OCR), identificación de objetos.
+        *   **Interacción basada en Imágenes**: Responder preguntas sobre el contenido de una imagen.
+    *   Herramientas para la multi-modalidad:
+        *   Uso de `PIL` (Pillow) para manejar imágenes en Python.
+        *   Técnicas para pasar imágenes (URLs, datos base64) a los modelos.
+    *   Casos de uso prácticos:
+        *   Agente que describe una imagen subida por el usuario.
+        *   Agente que resuelve un acertijo visual.
+        *   Agente que genera recetas a partir de una foto de ingredientes.
+- [Ver Video Tutorial](https://youtu.be/U0aG21oD6pA)
      
 ## 🛠️ Prerrequisitos
 
